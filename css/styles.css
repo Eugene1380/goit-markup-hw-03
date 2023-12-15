@@ -244,6 +244,7 @@ img {
 .company-employees-card {
   background-color: #fff;
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .company-employees-name {

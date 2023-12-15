@@ -31,6 +31,13 @@ img {
   max-width: 100%;
 }
 
+.container {
+  margin: 0 auto;
+  width: 1158px;
+  flex-shrink: 0;
+  padding: 0 15px;
+}
+
 /* Header */
 .header {
   background: #fff;

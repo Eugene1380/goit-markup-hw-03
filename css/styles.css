@@ -178,6 +178,7 @@ img {
 .features-list {
   display: flex;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .features-title {
@@ -200,7 +201,7 @@ img {
 } */
 
 .visually-hidden {
-    position: absolute !important;
+    /* position: absolute !important; */
     height: 1px;
     width: 1px;
     overflow: hidden;
@@ -292,7 +293,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
-  column-gap: 24px;
+  column-gap: 20px;
 }
 
 .container-portfolio {

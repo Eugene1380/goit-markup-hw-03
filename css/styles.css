@@ -67,7 +67,7 @@ img {
   color: #2e2f42;
 }
 
-.header-menu{
+.header-menu {
   display: flex;
   gap: 40px;
   padding: 24px 0;
@@ -173,6 +173,9 @@ img {
   padding: 120px 0;
 }
 
+.features-list {
+  display: flex;
+}
 .features-title {
   color: #2e2f42;
   text-align: center;
@@ -236,6 +239,7 @@ img {
 
 .company-employees-card {
   background-color: #fff;
+  width: calc((100% - 72px) / 4);
 }
 
 .company-employees-name {
@@ -253,7 +257,7 @@ img {
   text-align: center;
   /* line-height: 1.5;
   letter-spacing: 0.02em; */
- }
+}
 
 /* Portfolio */
 .portfolio {

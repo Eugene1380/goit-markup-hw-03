@@ -67,9 +67,14 @@ img {
   color: #2e2f42;
 }
 
-.header-menu,
+.header-menu{
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
+  margin-right: 332px;
+}
+
 .header-contacts {
-  font-style: normal;
   display: flex;
   gap: 40px;
   padding: 24px 0;
@@ -152,6 +157,8 @@ img {
   cursor: pointer;
   border: none;
   border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 48px;
 }
 
 .hero-button:hover,

@@ -208,7 +208,7 @@ img {
 }
 
 .features-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   display: flex;
   flex-direction: column;
   align-items: flex-start;

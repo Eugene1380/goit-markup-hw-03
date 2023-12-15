@@ -208,6 +208,9 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.container-features{
+ width: 1128px; 
+}
 
 .features-item {
   width: calc((100% - 72px) / 4);

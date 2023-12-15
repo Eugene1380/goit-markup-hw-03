@@ -237,6 +237,10 @@ img {
   gap: 24px;
 }
 
+.container-employees{
+  padding: 32px 0;
+}
+
 .company-employees-card {
   background-color: #fff;
   width: calc((100% - 72px) / 4);
@@ -277,6 +281,7 @@ img {
 .container-portfolio {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-title {

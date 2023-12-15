@@ -168,6 +168,7 @@ img {
 }
 
 /* Section 2. Features */
+
 .features {
   background-color: #fff;
   margin: 0 auto;
@@ -198,6 +199,10 @@ img {
   overflow: hidden;
 }
 
+.features-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .features-title-item {
   color: #2e2f42;
   font-size: 20px;
@@ -215,6 +220,7 @@ img {
 }
 
 /* Section 3. Team */
+
 .company-employees {
   background-color: #f4f4fd;
   padding: 120px 0;
@@ -237,7 +243,7 @@ img {
   gap: 24px;
 }
 
-.container-employees{
+.container-employees {
   padding: 32px 0;
 }
 
@@ -245,6 +251,7 @@ img {
   background-color: #fff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .company-employees-name {

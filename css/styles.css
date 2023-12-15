@@ -26,7 +26,10 @@ ul {
   margin: 0;
 }
 
-section {}
+img {
+  display: block;
+  max-width: 100%;
+}
 
 /* Header */
 .header {
@@ -150,7 +153,8 @@ section {}
   overflow: hidden;
 }
 
-.features-item {}
+.features-item {
+}
 
 .features-title-item {
   color: #2e2f42;
@@ -225,7 +229,8 @@ section {}
   margin-bottom: 72px;
 }
 
-.portfolio-card {}
+.portfolio-card {
+}
 
 .portfolio-types {
   margin-top: 32px;

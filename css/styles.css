@@ -234,6 +234,7 @@ img {
 /* Portfolio */
 .portfolio {
   background-color: #fff;
+  padding: 120px 0;
 }
 
 .portfolio-title {

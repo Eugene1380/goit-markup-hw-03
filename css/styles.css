@@ -207,9 +207,9 @@ img {
   overflow: hidden;
 }
 
-.features-item {
+/* .features-item {
   flex-basis: calc(100% - 3 * 24px);
-}
+} */
 
 .features-title-item {
   color: #2e2f42;

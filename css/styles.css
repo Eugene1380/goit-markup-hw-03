@@ -250,6 +250,7 @@ img {
 .portfolio {
   background-color: #fff;
   padding: 120px 0;
+  display: flex;
 }
 
 .portfolio-title {

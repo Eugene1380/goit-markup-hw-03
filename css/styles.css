@@ -190,13 +190,22 @@ img {
   text-transform: capitalize;
 }
 
-.visually-hidden {
+/* .visually-hidden {
   margin: -1px;
   border: 0;
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+} */
+
+.visually-hidden {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap;
 }
 
 .features-item {
